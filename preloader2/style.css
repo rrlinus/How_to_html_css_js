@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #333;
+}
+#header{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+#section{
+    height: 50%;
+    margin: auto;
+    width: 80%;
+    background-color: brown;
+}
+#preloder{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background: url('preloader.gif') center no-repeat;
+    background-size: cover;
+    /* background-color: chartreuse; */
+    
+}
