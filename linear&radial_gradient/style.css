@@ -1,0 +1,36 @@
+.btn{
+    width: 80%;
+    padding: 30px 0px;
+    margin:auto;
+    display: block;
+}
+/* default value of linear gradient direction is from to */
+/*background-image: linear-gradient(direction,col1,col2,col3);  at least 2 color required*/
+#btn1{
+    background-image: linear-gradient(red 33%,white 33%,green 33%);
+}
+#btn2{
+    background-image: linear-gradient(red,yellow,green);
+}
+#btn3 {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  }
+  #btn4 {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  }
+  /* A radial gradient is defined by its center.
+
+To create a radial gradient you must also define at least two color stops. */
+
+#btn5 {
+    background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+  }
+  #btn6{
+    background-image: radial-gradient(circle, red, yellow, green);
+  }
+  #btn7 {
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  }
+  #btn8{
+    background-image: linear-gradient(to right,#e74e4b,#fb8133,#e74e4b);
+  }
