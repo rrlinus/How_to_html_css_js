@@ -1,0 +1,19 @@
+.container{
+    position: relative;
+    /* background-color: #333; */
+    height: 110vh;
+}
+.item1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+.item2{
+position: absolute;
+z-index:234;
+height: 100%;
+width: 100%;
+color: white;
+background-color:rgba(0, 0, 0, 0.5);
+}
