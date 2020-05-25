@@ -1,0 +1,22 @@
+.slider{
+     
+	-webkit-appearance: none;/* Override default look */
+	width: 80%;
+	opacity: 0.2;/*opacity or transparancy*/
+	outline: none; /*outline effeect removed*/
+	color:blanchedalmond ;
+	background-color: brown;/*background color of input box is added*/
+	transition: opacity 2s;
+	cursor: pointer;
+}
+.slider:hover{
+	opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none; /* Override default look */
+	appearance: none;
+	width: 25px; /* Set a specific slider handle width */
+	height: 25px; /* Slider handle height */
+	background: #4CAF50; /* Green background */
+	cursor: pointer; /* Cursor on hover */
+  }
